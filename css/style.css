@@ -1,0 +1,699 @@
+/* gallery */
+/* popup */
+.pop-overlay {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 0ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+.payment-links li {
+    display: inline-block;
+}
+
+/* //left side text */
+/* right side slider */
+.banner-top1,
+.banner-top2,
+.banner-top3 {
+    min-height: 640px;
+}
+
+.banner-top1 {
+    background: url(../images/1.jpg) no-repeat bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.banner-top2 {
+    background: url(../images/2.jpg) no-repeat bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+.banner-top3 {
+    background: url(../images/3.jpg) no-repeat bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+
+
+
+/* about */
+.about {
+    background: url(../images/bg1.jpg) no-repeat left;
+    background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 500px;
+}
+
+
+h3.w3ls-title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #333;
+}
+
+h3.w3ls-title span {
+    color: #ff3f34;
+}
+/* services */
+.middle {
+    background: url(../images/bg5.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 7em;
+}
+
+.img-blog-2 {
+    position: absolute;
+    text-align: center;
+    /* width: 100%; */
+    bottom: -20%;
+    animation: scale 4s linear infinite;
+    left: 4%;
+    right: 0;
+    z-index: -1;
+}
+
+
+
+footer {
+    background: #17181b;
+}
+h4.p-mask {
+    color: #636363;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 14px 10px 20px;
+}
+h4.p-mask span {
+    color: #191919;
+    font-size: 24px
+}
+
+/* map */
+.map iframe {
+    width: 100%;
+    min-height: 400px;
+    border: none;
+    display: block;
+}
+.cpy-right {
+    background: #1c1d21;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+    font-family: 'Lato', sans-serif;
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+body a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+body a:hover,
+body button:hover {
+    opacity: .8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    line-height: 25px;
+    color: #999;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    margin: 0;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none
+}
+
+.text-wh {
+    color: #fff;
+}
+
+.text-da {
+    color: #343a40;
+}
+
+.text-li {
+    color: #f8f9fa;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* //Reset Code */
+
+/* bottom-to-top */
+a.move-top {
+    position: fixed;
+    bottom: 1.5%;
+    right: 2%;
+    z-index: 0;
+}
+
+a.move-top span {
+    color: #ff3f34;
+    font-size: 30px;
+}
+
+/* //bottom-to-top */
+
+/* header */
+/* top bar */
+.header-top_w3layouts {
+    padding: 0 .5em;
+}
+
+/* social icons */
+.top-right-info li a {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 2px;
+    display: inline-block;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+}
+
+.top-right-info li a span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.top-right-info li p {
+    margin-right: 6px;
+    font-size: 16px;
+}
+
+.top-right-info li.facebook-w3 a {
+    background: #3b5998;
+}
+
+.top-right-info li.twitter-w3 a {
+    background: #1da1f2;
+}
+
+.top-right-info li.google-w3 a {
+    background: #F44336;
+}
+
+.top-right-info li.dribble-w3 a {
+    background: #ea4c89;
+}
+
+.top-right-info li {
+    display: inline-block;
+}
+
+nav li:last-child {
+    margin: 0;
+}
+
+/* //social icons */
+.header-top_w3layouts p,
+.header-w3layouts p,
+.top-w3layouts p {
+    font-size: 14px;
+}
+
+a.login-button-2 {
+    letter-spacing: 1px;
+    font-size: 12px;
+    background: #05c46b;
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.middle-flex {
+    align-items: center;
+}
+
+/* //top bar */
+/* header 2 */
+.nav-content {
+    display: flex;
+    align-items: center;
+}
+
+.nav_web-dealingsls {
+    margin-left: auto;
+}
+
+/* navigation */
+/* CSS Document */
+.toggle-2,
+.toggle,
+[id^=drop] {
+    display: none;
+}
+
+/* Giving a background-color to the nav container. */
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+nav:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+/* Positioning the navigation items inline */
+nav ul li {
+    display: inline-block;
+    float: left;
+}
+
+/* Styling the links */
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #3a3939;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+/* Background color change on Hover */
+nav a:hover {
+    color: #3a3939;
+}
+
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 24px;
+    background: #fff;
+    padding: 10px;
+    z-index: 9;
+    border: 1px solid #e4e4e4;
+    /* has to be the same number as the "line-height" of "nav a" */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover>ul {
+    display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+    margin: 0;
+}
+
+nav ul ul li a {
+    display: block;
+    font-size: 13px;
+    padding: 6px 10px;
+}
+
+a.drop-text:hover {
+    background: #f5f5f5;
+}
+
+/* Second, Third and more Tiers	
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    /* has to be the same number as the "width" of "nav ul ul li" */
+    left: 170px;
+}
+
+/* Change ' +' in order to change the Dropdown symbol */
+li>a:only-child:after {
+    content: '';
+}
+
+/* Media Queries
+--------------------------------------------- */
+@media all and (max-width : 991px) {
+    #logo {
+        float: left;
+    }
+
+    /* Hide the navigation menu by default */
+    /* Also hide the  */
+    .toggle+a,
+    .menu {
+        display: none;
+    }
+
+
+    /* Stylinf the toggle lable */
+    .toggle {
+        display: block;
+        padding: 8px 15px 10px;
+        font-size: 15px;
+        text-decoration: none;
+        border: none;
+        float: right;
+        background-color: #eee;
+        color: #111;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -o-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -moz-border-radius: 4px;
+        margin-bottom: 0;
+        cursor: pointer;
+        margin-top: 8px;
+    }
+
+    .menu .toggle {
+        float: none;
+        text-align: center;
+        margin: auto;
+        max-width: 70px;
+        padding: 5px 0;
+        font-weight: normal;
+        font-size: 14px;
+        background: transparent;
+        color: #3a3939;
+        text-transform: uppercase;
+        letter-spacing: .5px;
+    }
+
+    .toggle:hover {
+        opacity: .8;
+    }
+
+    /* Display Dropdown when clicked on Parent Lable */
+    [id^=drop]:checked+ul {
+        display: block;
+        padding: 15px 0;
+        text-align: center;
+        width: 100%;
+        background: #f9f9f9;
+        border: 1px solid #e2e2e2;
+    }
+
+    nav ul {
+        float: right;
+    }
+
+    /* Change menu item's width to 100% */
+    nav ul li {
+        display: block;
+        width: 100%;
+    }
+
+    nav a:hover,
+    nav ul ul ul a {
+        background-color: transparent;
+    }
+
+    /* Hide Dropdowns by Default */
+    nav ul ul {
+        float: none;
+        position: static;
+        color: #ffffff;
+        /* has to be the same number as the "line-height" of "nav a" */
+    }
+
+    /* Hide menus on hover */
+    nav ul ul li:hover>ul,
+    nav ul li:hover>ul {
+        display: none;
+    }
+
+    /* Fisrt Tier Dropdown */
+    nav ul ul li {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav ul ul ul li {
+        position: static;
+        /* has to be the same number as the "width" of "nav ul ul li" */
+    }
+
+    nav .menu li {
+        margin: 2px 0;
+    }
+
+    ul.menu {
+        max-height: 250px;
+        overflow-y: auto;
+    }
+
+    .nav-content {
+        display: block;
+    }
+}
+
+/* navigation scroll */
+ul.menu::-webkit-scrollbar {
+    width: 3px;
+}
+
+ul.menu::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+ul.menu::-webkit-scrollbar-thumb {
+    background-color: rgb(212, 212, 212);
+}
+
+/* //navigation scroll */
+
+/* //navigation */
+/* logo */
+a.logo {
+    color: #3a3939;
+    font-size: 40px;
+    padding: 0;
+    font-weight: bold;
+    position: relative;
+}
+
+a.logo span {
+    color: #ff3f34;
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    position: absolute;
+    right: 0;
+    top: -2px;
+}
+
+/* //logo */
+
+/* download button */
+.dwn-button span {
+    font-size: 33px;
+    color: #3a3939;
+}
+
+/* //download button */
+
+/* modal */
+.log_page{
+	padding: 40px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	position: relative;
+}
+.log_page .img{
+	width: 50%;
+	height: 100%
+}
+.log_page img {
+	padding-top: 14%;
+	width: 100%;
+}
+.log_page .log{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 50%;
+	height: 100%;
+	margin-right: 10%;
+}
+
+.login {
+    border: 1px solid #eee;
+    background: white;
+
+}
+
+.login-body h5 {
+    color: #000;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+p.account-w3ls a {
+    color: #05c46b;
+}
+
+.form-group label {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+button.submit {
+    background: #ff3f34;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 1em;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+/* //modal */
+/* //header 2 */
+
+/* banner */
+.baneer-w3ls {
+    background: linear-gradient(to bottom, #fff, #fbfbfb);
+    z-index: 1;
+    position: relative;
+}
+
+/* left side text */
+.banner-info_agile_w3ls {
+    padding-top: 10em;
+    padding-left: 5em;
+}`
+
+.banner-info_agile_w3ls h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.banner-info_agile_w3ls h3 {
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.banner-info_agile_w3ls h3 span {
+    color: #ff3f34;
+}
+
+a.button-w3ls {
+    color: #615f5f;
+    letter-spacing: 1px;
+    font-size: 13px;
+    padding: 12px 20px;
+    background: transparent;
+    border: 1px solid #c1c0c0;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+a.button-w3ls.active {
+    color: #fff;
+    background: #05c46b;
+    border-color: #05c46b;
+}
+
+a.button-w3ls:hover {
+    color: #fff;
+    background: #05c46b;
+    border-color: #05c46b;
+}
